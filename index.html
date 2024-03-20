@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TipCalculator</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="description">
+      <div>
+        <span>S</span>
+        <span>P</span>
+        <span>L</span>
+        <span>I</span>
+      </div>
+      <div>
+        <span>T</span>
+        <span>T</span>
+        <span>E</span>
+        <span>R</span>
+      </div>
+    </div>
+
+    <form class="form-control">
+      <div class="form-left">
+        <div class="form-left-item">
+          <label class="label-top">Bill</label>
+          <input class="input-top" type="number" placeholder="142.55" />
+        </div>
+        <div class="form-left-center">
+          <label>Select Tip %</label>
+          <div class="buttons">
+            <div>
+              <button class="button">5%</button>
+              <button class="button">10%</button>
+              <button class="button">15%</button>
+            </div>
+            <div>
+              <button class="button">25%</button>
+              <button class="button">50%</button>
+              <button class="button-last-child">Custom</button>
+            </div>
+          </div>
+          <div class="form-left-item">
+            <label class="label-top">Number of People</label>
+            <input class="input-top" type="number" placeholder="5" />
+          </div>
+        </div>
+      </div>
+      <div class="form-right right-container">
+        <div class="form-right-top">
+          <div class="form-right-top-left">
+            <h4 class="form-right-top-title">Tip Amout</h4>
+            <p class="form-right-top-text">/ person</p>
+          </div>
+          <h2 class="form-right-top-number">$4.27</h2>
+        </div>
+        <div class="form-right-top">
+          <div>
+            <h4 class="form-right-top-title">Total</h4>
+            <p class="form-right-top-text">/ person</p>
+          </div>
+          <h2 class="form-right-top-number">$32.79</h2>
+        </div>
+
+        <button class="form-right-button" type="reset">RESET</button>
+      </div>
+    </form>
+  </body>
+</html>
